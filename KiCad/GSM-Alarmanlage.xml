@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\TOOLS_HANS\Microcontroller\Projekte\GSM_Alarmanlage\KiCad\GSM-Alarmanlage.sch</source>
+    <date>03.05.2021 16:43:14</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>GSM-Alarmanlage</title>
+        <company/>
+        <rev>1</rev>
+        <date>2021-04-26</date>
+        <source>GSM-Alarmanlage.sch</source>
+        <comment number="1" value="GSM-Modul SIM800L"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>SIM800L_7-Pin</value>
+      <footprint>RF_Module:SIM800L_7-Pin</footprint>
+      <libsource lib="RF_Module" part="SIM800L_7-Pin" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6086E40C</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>CRE1S1205SC</value>
+      <footprint>Converter_DCDC:Converter_DCDC_LM2596S_Modul</footprint>
+      <datasheet>http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="CRE1S1205SC" description="12V to 5V 200mA DC-DC Converter with 1kV isolation, SIP-4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60877696</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>scharf</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60878606</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>Motion</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6087906D</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608795BC</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608798AA</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Power</value>
+      <footprint>Connector_Wago250:250-202</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60879D93</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Bew. Melder</value>
+      <footprint>Connector_Wago250:250-203</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6087A59B</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Kontakte</value>
+      <footprint>Connector_Wago250:250-204</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6087AB3B</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Scharf / unscharf</value>
+      <footprint>Connector_Wago250:250-202</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6087DA53</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6087F36F</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>220µ/16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608B442C</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nf</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608B5DDD</tstamp>
+    </comp>
+    <comp ref="Ar1">
+      <value>Arduino_nano</value>
+      <footprint>Module:ArduinoNano</footprint>
+      <libsource lib="arduino" part="Arduino_nano" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60866DDD</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>2,5A</value>
+      <footprint>Fuse:Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608872A2</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>GSM Module</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6089168C</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>GSM-Module</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6089195A</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>GSM Module</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60891F5C</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>Board</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60898C30</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>Board</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60898EA1</tstamp>
+    </comp>
+    <comp ref="H6">
+      <value>Board</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60899683</tstamp>
+    </comp>
+    <comp ref="H7">
+      <value>Board</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60899D3B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x04">
+      <description>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="RF_Module" part="SIM800L_7-Pin">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SIM800L_7-Pin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="5V_in" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VDD" type="input"/>
+        <pin num="4" name="TXD" type="output"/>
+        <pin num="5" name="RXD" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="RST" type="input"/>
+        <pin num="8" name="Ant" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="CRE1S0505SC">
+      <aliases>
+        <alias>CRE1S0515SC</alias>
+        <alias>CRE1S1205SC</alias>
+        <alias>CRE1S1212SC</alias>
+        <alias>CRE1S2405SC</alias>
+        <alias>CRE1S2412SC</alias>
+      </aliases>
+      <description>5V to 5V 200mA DC-DC Converter with 1kV isolation, SIP-4</description>
+      <docs>http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf</docs>
+      <footprints>
+        <fp>Converter*DCDC*muRata*CRE1xxxxxxSC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CRE1S0505SC</field>
+        <field name="Footprint">Converter_DCDC:Converter_DCDC_muRata_CRE1xxxxxxSC_THT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-VIN" type="power_in"/>
+        <pin num="2" name="+VIN" type="power_in"/>
+        <pin num="3" name="-VOUT" type="power_out"/>
+        <pin num="4" name="+VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="arduino" part="Arduino_nano">
+      <fields>
+        <field name="Reference">Ar</field>
+        <field name="Value">Arduino_nano</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TX/PD1" type="3state"/>
+        <pin num="2" name="RX/PD0" type="3state"/>
+        <pin num="3" name="~RESET~/PC6" type="3state"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2/PD2/INT0" type="3state"/>
+        <pin num="6" name="D3/PD3/INT1/PWM" type="input"/>
+        <pin num="7" name="D4/PD4" type="input"/>
+        <pin num="8" name="D5/PD5/PWM" type="input"/>
+        <pin num="9" name="D6/PD6/PWM" type="input"/>
+        <pin num="10" name="D7/PD7" type="input"/>
+        <pin num="11" name="D8/PB0" type="input"/>
+        <pin num="12" name="D9/PB1/PWM" type="input"/>
+        <pin num="13" name="D10/PB2/PWM/SS" type="input"/>
+        <pin num="14" name="D11/PB3/PWM/MOSI" type="input"/>
+        <pin num="15" name="D12/PB4/MISO" type="input"/>
+        <pin num="16" name="D13/PB5/SCK" type="input"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="ADC0/PC0" type="3state"/>
+        <pin num="20" name="ADC1/PC1" type="input"/>
+        <pin num="21" name="ADC2/PC2" type="input"/>
+        <pin num="22" name="ADC3/PC3" type="input"/>
+        <pin num="23" name="ADC4/PC4/SDA" type="input"/>
+        <pin num="24" name="ADC5/PC5/SCL" type="input"/>
+        <pin num="25" name="ADC6" type="input"/>
+        <pin num="26" name="ADC7" type="input"/>
+        <pin num="27" name="+5V" type="input"/>
+        <pin num="28" name="~RESET~/PC6" type="input"/>
+        <pin num="29" name="GND" type="input"/>
+        <pin num="30" name="VIN" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="RF_Module">
+      <uri>D:\Program Files\KiCad\share\kicad\library/RF_Module.lib</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Regulator_Switching.lib</uri>
+    </library>
+    <library logical="arduino">
+      <uri>D:/Program Files/KiCad/lib/Eigene/kicad-libraries-master/arduino.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Ar1-Pad26)">
+      <node ref="Ar1" pin="26"/>
+    </net>
+    <net code="2" name="Net-(Ar1-Pad2)">
+      <node ref="Ar1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(Ar1-Pad9)">
+      <node ref="Ar1" pin="9"/>
+    </net>
+    <net code="4" name="Net-(Ar1-Pad12)">
+      <node ref="Ar1" pin="12"/>
+    </net>
+    <net code="5" name="Net-(Ar1-Pad13)">
+      <node ref="Ar1" pin="13"/>
+    </net>
+    <net code="6" name="Net-(Ar1-Pad16)">
+      <node ref="Ar1" pin="16"/>
+    </net>
+    <net code="7" name="Net-(Ar1-Pad19)">
+      <node ref="Ar1" pin="19"/>
+    </net>
+    <net code="8" name="Net-(Ar1-Pad20)">
+      <node ref="Ar1" pin="20"/>
+    </net>
+    <net code="9" name="Net-(Ar1-Pad21)">
+      <node ref="Ar1" pin="21"/>
+    </net>
+    <net code="10" name="Net-(Ar1-Pad22)">
+      <node ref="Ar1" pin="22"/>
+    </net>
+    <net code="11" name="Net-(Ar1-Pad23)">
+      <node ref="Ar1" pin="23"/>
+    </net>
+    <net code="12" name="Net-(Ar1-Pad24)">
+      <node ref="Ar1" pin="24"/>
+    </net>
+    <net code="13" name="Net-(Ar1-Pad1)">
+      <node ref="Ar1" pin="1"/>
+    </net>
+    <net code="14" name="Net-(Ar1-Pad25)">
+      <node ref="Ar1" pin="25"/>
+    </net>
+    <net code="15" name="Net-(Ar1-Pad8)">
+      <node ref="U2" pin="5"/>
+      <node ref="Ar1" pin="8"/>
+    </net>
+    <net code="16" name="Net-(Ar1-Pad15)">
+      <node ref="Ar1" pin="15"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="17" name="Net-(D2-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="18" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="19" name="+5V">
+      <node ref="U2" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="Ar1" pin="30"/>
+    </net>
+    <net code="20" name="Net-(Ar1-Pad7)">
+      <node ref="Ar1" pin="7"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="21" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="22" name="GND">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J4" pin="4"/>
+      <node ref="J4" pin="2"/>
+      <node ref="Ar1" pin="29"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="Ar1" pin="4"/>
+    </net>
+    <net code="23" name="Net-(Ar1-Pad27)">
+      <node ref="Ar1" pin="27"/>
+    </net>
+    <net code="24" name="Net-(Ar1-Pad28)">
+      <node ref="Ar1" pin="28"/>
+    </net>
+    <net code="25" name="Net-(Ar1-Pad3)">
+      <node ref="Ar1" pin="3"/>
+    </net>
+    <net code="26" name="Net-(Ar1-Pad18)">
+      <node ref="Ar1" pin="18"/>
+    </net>
+    <net code="27" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="28" name="Net-(Ar1-Pad17)">
+      <node ref="Ar1" pin="17"/>
+    </net>
+    <net code="29" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="30" name="Net-(F1-Pad2)">
+      <node ref="F1" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="31" name="Net-(Ar1-Pad14)">
+      <node ref="D2" pin="1"/>
+      <node ref="Ar1" pin="14"/>
+    </net>
+    <net code="32" name="D7">
+      <node ref="R1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="Ar1" pin="10"/>
+    </net>
+    <net code="33" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="34" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="35" name="D8">
+      <node ref="Ar1" pin="11"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="36" name="D3">
+      <node ref="J4" pin="3"/>
+      <node ref="Ar1" pin="6"/>
+    </net>
+    <net code="37" name="D2">
+      <node ref="J4" pin="1"/>
+      <node ref="Ar1" pin="5"/>
+    </net>
+  </nets>
+</export>

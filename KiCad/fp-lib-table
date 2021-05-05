@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Connector_Wago250)(type KiCad)(uri "D:/TOOLS_HANS/Microcontroller/Projekte/Boot NMEA/Engine Monitor/KiCad/MotordiagV_3/Wago_250/Connector_Wago250.pretty")(options "")(descr ""))
+)
