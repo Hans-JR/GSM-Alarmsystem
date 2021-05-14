@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:\TOOLS_HANS\Microcontroller\Projekte\GSM_Alarmanlage\KiCad\GSM-Alarmanlage.sch)
-    (date "02.05.2021 12:18:50")
+    (date "14.05.2021 13:58:48")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -92,7 +92,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 6087F36F))
     (comp (ref C2)
-      (value 220µ/16V)
+      (value 470µ/16V)
       (footprint Capacitor_THT:CP_Radial_D8.0mm_P3.50mm)
       (datasheet ~)
       (libsource (lib Device) (part CP) (description "Polarized capacitor"))

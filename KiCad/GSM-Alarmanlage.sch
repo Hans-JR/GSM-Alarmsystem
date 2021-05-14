@@ -5,11 +5,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "GSM-Alarmanlage"
-Date "2021-04-26"
-Rev "1"
+Date "2021-05-14"
+Rev "2"
 Comp ""
 Comment1 "GSM-Modul SIM800L"
-Comment2 ""
+Comment2 "Rev2: changed footprint of U2"
 Comment3 ""
 Comment4 ""
 $EndDescr
