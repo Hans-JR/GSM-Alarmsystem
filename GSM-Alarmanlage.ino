@@ -107,7 +107,7 @@ void pin2_ISR() {
   Serial.println("Sending SMS...");                     //Show this message on serial monitor
   mySerial.print("AT+CMGF=1\r");                        //Set the module to SMS mode
   delay(100);
-  mySerial.print("AT+CMGS=\"++49xxxxxxxxx\"\r");      //Your phone number don't forget to include your country code, example +212123456789"
+  mySerial.print("AT+CMGS=\"+49xxxxxxxxx\"\r");      //Your phone number don't forget to include your country code, example +212123456789"
   delay(500);
   mySerial.print("Bilgenalarm");                        //This is the text to send to the phone number, don't make it too long or you have to modify the SoftwareSerial buffer
   delay(500);
@@ -126,9 +126,9 @@ void pin3_ISR() {
   Serial.println("Sending SMS...");                       //Show this message on serial monitor
   mySerial.print("AT+CMGF=1\r");                          //Set the module to SMS mode
   delay(100);
-  mySerial.print("AT+CMGS=\"++49xxxxxxxxx\"\r");        //Your phone number don't forget to include your country code, example +212123456789"
+  mySerial.print("AT+CMGS=\"+49xxxxxxxxx\"\r");        //Your phone number don't forget to include your country code, example +212123456789"
   delay(500);
-  mySerial.print("Klappe Keller offen");                  //This is the text to send to the phone number, don't make it too long or you have to modify the SoftwareSerial buffer
+  mySerial.print("Motorraum geöffnet");                  //This is the text to send to the phone number, don't make it too long or you have to modify the SoftwareSerial buffer
   delay(500);
   mySerial.print((char)26);                               //End AT command with a ^Z, ASCII code 26
   delay(500);
